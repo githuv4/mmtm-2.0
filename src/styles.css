@@ -1,0 +1,55 @@
+body {
+  /* color: white; */
+  background-color: #dddddd;
+}
+
+li {
+  list-style: none;
+  /* border: 1px solid; */
+  padding-left: 0px;
+  margin-left: -40px;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+span {
+  margin-left: 8px;
+}
+
+button {
+  font-size: 10px;
+  background-color: white;
+  border: none;
+}
+
+.js-form {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.form input {
+  width: 150px;
+  /* border-radius: 20px; */
+  padding: 5px 15px;
+  outline: none;
+}
